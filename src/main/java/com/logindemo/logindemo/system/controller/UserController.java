@@ -82,6 +82,7 @@ public class UserController {
                 Map<String,Object> map = new HashMap<>();
                 map.put("realname",userEntity.getRealname());
                 map.put("token",token);
+                System.out.println("woyebuzhidao");
                 return ResultUtils.success(map,"登录成功");//登录成功
 
             }
