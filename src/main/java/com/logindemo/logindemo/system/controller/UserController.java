@@ -83,6 +83,7 @@ public class UserController {
                 map.put("realname",userEntity.getRealname());
                 map.put("token",token);
                 return ResultUtils.success(map,"登录成功");//登录成功
+
             }
             return ResultUtils.error("密码错误，请重新输入");
         }else {
